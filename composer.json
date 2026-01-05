@@ -1,7 +1,7 @@
 {
   "name": "elitehub/payment",
   "description": "Pacote modular para integração com múltiplos gateways de pagamento",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "type": "library",
   "keywords": [
     "faker",
