@@ -2,22 +2,6 @@
 
 return [
 
-    /*
-    |--------------------------------------------------------------------------
-    | Modelos Principais
-    |--------------------------------------------------------------------------
-    | Aqui você pode sobrescrever as models utilizadas pelo pacote,
-    | caso queira usar suas próprias implementações no projeto principal.
-    |
-    | Exemplo: substitua \EliteHub\Payment\Models\PaymentProvider
-    | por App\Models\PaymentProvider, se desejar.
-    */
-    'models' => [
-        'provider' => \EliteHub\Payment\Models\PaymentProvider::class,
-        'method' => \EliteHub\Payment\Models\PaymentMethod::class,
-        // Se quiser integrar com seu model de transação:
-        // 'payment'  => \App\Models\Payment::class,
-    ],
 
     /*
     |--------------------------------------------------------------------------

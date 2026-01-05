@@ -11,10 +11,6 @@ class PaymentServiceProvider extends ServiceProvider
     {
         $this->mergeConfigFrom(__DIR__ . '/../../config/payments.php', 'payments');
 
-        // Bind de models configuráveis
-        foreach (config('payments.models') as $key => $model) {
-            $this->app->bind("payments.models.{$key}", fn() => $model);
-        }
     }
 
     public function boot()

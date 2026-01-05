@@ -1,6 +1,6 @@
 <?php
 
-namespace EliteHub\Payment\Models;
+namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
