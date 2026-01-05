@@ -3,7 +3,7 @@
 namespace EliteHub\Payment;
 
 use EliteHub\Payment\Gateways\MercadoPagoGateway;
-use EliteHub\Payment\Models\PaymentProvider;
+use App\Models\PaymentProvider;
 use Exception;
 
 use EliteHub\Payment\Contracts\PaymentGatewayInterface;
