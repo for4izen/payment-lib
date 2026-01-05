@@ -1,34 +1,34 @@
 {
-    "name": "elitehub/payment",
-    "description": "Pacote modular para integração com múltiplos gateways de pagamento",
-    "version": "1.0.1",
-    "type": "library",
-    "keywords": [
-        "faker",
-        "fixtures",
-        "data"
-    ],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "For4izen"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "EliteHub\\Payment\\": "src/"
-        }
-    },
-    "require": {
-        "php": "^8.4",
-          "illuminate/support": "^10.0|^11.0|^12.0",
-        "mercadopago/dx-php": "^3.0"
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "EliteHub\\Payment\\Providers\\PaymentServiceProvider"
-            ]
-        }
+  "name": "elitehub/payment",
+  "description": "Pacote modular para integração com múltiplos gateways de pagamento",
+  "version": "1.0.2",
+  "type": "library",
+  "keywords": [
+    "faker",
+    "fixtures",
+    "data"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "For4izen"
     }
+  ],
+  "autoload": {
+    "psr-4": {
+      "EliteHub\\Payment\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.4",
+    "illuminate/support": "^10.0|^11.0|^12.0",
+    "mercadopago/dx-php": "^3.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "EliteHub\\Payment\\Providers\\PaymentServiceProvider"
+      ]
+    }
+  }
 }
