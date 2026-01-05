@@ -1,19 +1,32 @@
 {
   "name": "elitehub/payment",
   "description": "Pacote modular para integração com múltiplos gateways de pagamento",
-  "version": "1.0.7",
+  "version": "1.0.0",
   "type": "library",
   "keywords": [
-    "faker",
-    "fixtures",
-    "data"
+    "laravel",
+    "elitehub",
+    "payments",
+    "gateway",
+    "mercadopago",
+    "pix",
+    "checkout",
+    "modular"
   ],
   "license": "MIT",
   "authors": [
     {
-      "name": "For4izen"
+      "name": "For4izen",
+      "email": "for4izen@elitehub.com",
+      "homepage": "https://elitehub.tech",
+      "role": "Developer"
     }
   ],
+  "homepage": "https://github.com/for4izen/payment-lib/tree/1.0.0",
+  "support": {
+    "issues": "https://github.com/for4izen/payment-lib/tree/1.0.0/issues",
+    "source": "https://github.com/for4izen/payment-lib/tree/1.0.0"
+  },
   "autoload": {
     "psr-4": {
       "EliteHub\\Payment\\": "src/"
@@ -30,5 +43,7 @@
         "EliteHub\\Payment\\Providers\\PaymentServiceProvider"
       ]
     }
-  }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
 }
