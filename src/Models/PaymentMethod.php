@@ -9,15 +9,8 @@ class PaymentMethod extends Model
 {
     use HasFactory;
 
-    protected $table = 'payment_methods';
 
-    protected $fillable = [
-        'payment_provider_id',
-        'method_key',
-        'name',
-        'image',
-        'status',
-    ];
+    protected $guarded = [];
 
     protected $casts = [
         'status' => 'boolean',

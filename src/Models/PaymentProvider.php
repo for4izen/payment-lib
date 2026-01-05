@@ -9,16 +9,8 @@ class PaymentProvider extends Model
 {
     use HasFactory;
 
-    protected $table = 'payment_providers';
 
-    protected $fillable = [
-        'app_config_id',
-        'provider_key',
-        'name',
-        'description',
-        'image',
-        'status',
-    ];
+    protected $guarded = [];
 
     protected $casts = [
         'status' => 'boolean',

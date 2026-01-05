@@ -14,7 +14,7 @@ class MercadoPagoGateway implements PaymentGatewayInterface
 {
     public function __construct()
     {
-        MercadoPagoConfig::setAccessToken(config('services.mercadopago.token'));
+        MercadoPagoConfig::setAccessToken(config('payments.providers.mercadopago.config.token'));
     }
 
     public function initiate($order, $payment): array
